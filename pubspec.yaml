@@ -1,0 +1,13 @@
+name: exo08_contacts_polymer
+version: 0.0.1
+author: Hassane Moussa Abba  <hazbef@yahoo.fr>
+description: Gérer des contacts avec polymer et dart
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  browser: any
+  dartlero: any
+  polymer: '>=0.12.0 <0.16.0'
+transformers:
+- polymer:
+    entry_points: web/exo08_contacts_polymer.html
